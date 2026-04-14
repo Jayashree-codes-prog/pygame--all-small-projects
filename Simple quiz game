@@ -1,0 +1,14 @@
+#simple quiz game
+score=0
+
+ans1=input('capital of india?')
+if ans1=='Delhi':
+	score+=1
+	
+ans2=input('2+2=')
+if int(ans2)==4:
+	score+=1
+	
+print('your score=',score)
+
+print('- - - - - - - - - - - - - - - - - - - ')
