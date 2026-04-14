@@ -1,0 +1,9 @@
+# pygame--all-small-projects
+
+#Guess the num game
+secret=7
+guess=int(input('guess the number(1-10):'))
+if guess==secret:
+	print('correct!you win!')
+else:
+	print('wrong!The number was',secret)
